@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+    <title>Web Cafe</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="contenedor-menu">
+        <div class="header-contenedor-1">
+            <a href="index.html"><img src="imagenes/taza-de-cafe.png" class="logo-img"></a>      
+
+            <div id="toggle-menu" class="toggle-menu">
+                <img src="imagenes/menu-hamburguesa.png" class="toggle-menu">
+            </div>
+        </div> 
+
+            
+                <ul id="menu-header" class="menu-header">
+                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="servicios.html">Servicios</a></li>
+                  <li><a href="registro.html">Contacto</a></li>
+                </ul>
+        </div>    
+    </header>
+
+    <section class="contenedor-inicio">
+        <div class="texto-contenedor-inicio">
+            <h1>LOS MEJORES CAFÉS</h1>
+            <a href="servicios.html"><button class="btn-1">Contratanos</button></a>
+        </div>
+    </section>
+
+    <section class="productos">
+        <h2>Mejores productos</h2>
+        <div class="contenedor-productos">      
+            <div class="contenedor-producto">
+                <div class="descuento">
+                    <p>-20%</p>
+                </div>
+                <div class="imagen-cafe">
+                    <img src="imagenes/cafe-ingles.jpg"></img>
+                </div>
+                <div class="nombre-producto">
+                    <h3>Café inglés</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="icono-tienda">
+                    <span >
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>    
+                </div>
+                <div class="price">
+                    <p class="actual">4,95$</p>
+                    <p class="tachado">5,95$</p>
+                </div>
+            </div>     
+            <div class="contenedor-producto">
+                <div class="descuento">
+                    <p>-25%</p>
+                </div>
+                <div class="imagen-cafe">
+                    <img src="imagenes/cafe-australiano.jpg"></img>
+                </div>
+                <div class="nombre-producto">
+                    <h3>Café australiano</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="icono-tienda">
+                    <span >
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>    
+                </div>
+                <div class="price">
+                    <p class="actual">5,95$</p>
+                    <p class="tachado">7,95$</p>
+                </div>
+
+            </div>    
+            <div class="contenedor-producto">
+                <div class="descuento">
+                    <p>-29%</p>
+                </div>
+                <div class="imagen-cafe">
+                    <img src="imagenes/cafe-irish.jpg"></img>
+                </div>
+                <div class="nombre-producto">
+                    <h3>Café irish</h3>
+                </div>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="icono-tienda">
+                    <span >
+                        <i class="fa-solid fa-basket-shopping"></i>
+                    </span>    
+                </div>
+                <div class="price">
+                    <p class="actual">3,95$</p>
+                    <p class="tachado">5,95$</p>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="agrupacion">
+        <div class="botones-productos">
+            <a ><button id="masvendidos" class="btn1-inicio">Más vendidos</button></a>
+            <a ><button id="masvalorados" class="btn1-inicio">Más valorados</button></a>
+            <a ><button id="masrecientes" class="btn1-inicio">Más recientes</button></a>
+        </div>
+        <div class="contenedor-seccion">
+            <div class="contenedor-masvendidos" id="contenedormasvendidos">
+                <div class="contenedor-producto">
+                    <div class="descuento">
+                        <p>-25%</p>
+                    </div>
+                    <div class="imagen-cafe">
+                        <img src="imagenes/cafe-australiano.jpg"></img>
+                    </div>
+                    <div class="nombre-producto">
+                        <h3>Café australiano</h3>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="icono-tienda">
+                        <span >
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>    
+                    </div>
+                    <div class="price">
+                        <p class="actual">5,95$</p>
+                        <p class="tachado">7,95$</p>
+                    </div>
+
+                 </div>
+            </div>
+            <div class="contenedor-masvalorados" id="contenedormasvalorados">
+                <div class="contenedor-producto">
+                    <div class="descuento">
+                        <p>-25%</p>
+                    </div>
+                    <div class="imagen-cafe">
+                        <img src="imagenes/cafe-liqueurs.jpg"></img>
+                    </div>
+                    <div class="nombre-producto">
+                        <h3>Café australiano</h3>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="icono-tienda">
+                        <span >
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>    
+                    </div>
+                    <div class="price">
+                        <p class="actual">5,95$</p>
+                        <p class="tachado">7,95$</p>
+                    </div>
+
+                 </div>
+            </div>
+            <div class="contenedor-masrecientes" id="contenedormasrecientes">
+                <div class="contenedor-producto">
+                    <div class="descuento">
+                        <p>-25%</p>
+                    </div>
+                    <div class="imagen-cafe">
+                        <img src="imagenes/cafe-viena.jpg"></img>
+                    </div>
+                    <div class="nombre-producto">
+                        <h3>Café viena</h3>
+                    </div>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="icono-tienda">
+                        <span >
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>    
+                    </div>
+                    <div class="price">
+                        <p class="actual">4,95$</p>
+                        <p class="tachado">5,95$</p>
+                    </div>
+
+                 </div>
+            </div>
+        </div>    
+        
+    </section>
+  
+
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer_row">
+
+                <div class="footer_links">
+                    <h5>Nosotros</h5>
+                    <ul>
+                        <li><a href="">Servicios</a></li>
+                        <li><a href="">Política de Privacidad</a></li>
+                        <li><a href="">Afiliados</a></li>
+                    </ul>
+                </div>
+                <div class="footer_links">
+                    <h5>Ayuda</h5>
+                    <ul>
+                        <li><a href="">Preguntas</a></li>
+                        <li><a href="">Pago</a></li>
+                        <li><a href="">Compras</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_links">
+                    <h5>Siguenos</h5>
+                    <div class="social_links">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+            
+    </footer>
+        
+<script src="scripts.js"></script>
+
+</body>
+</html>
